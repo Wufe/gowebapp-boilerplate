@@ -1,0 +1,45 @@
+.app__title {
+	user-select: none;
+	letter-spacing: .15em;
+}
+
+.app__subtitle {
+	margin-top: 20px;
+	font-size: .45em;
+	letter-spacing: .3em;
+}
+
+.app__impressions {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	display: grid;
+	margin-top: 30px;
+	grid-gap: 15px;
+}
+
+.impression {
+	text-transform: uppercase;
+	transform: scaleY(.9);
+	letter-spacing: .2em;
+
+	&.first {
+		font-size: .40em;
+	}
+
+	&.second {
+		font-size: .35em;
+	}
+
+	&.third {
+		font-size: .31em;
+	}
+
+	&.fourth {
+		font-size: .30em;
+	}
+
+	&.fifth {
+		font-size: .26em;
+	}
+}

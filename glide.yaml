@@ -1,0 +1,18 @@
+package: .
+import:
+- package: github.com/jinzhu/gorm
+  version: ^1.9.2
+  subpackages:
+  - dialects/sqlite
+- package: github.com/kataras/iris
+  version: ^11.1.1
+  subpackages:
+  - middleware/logger
+  - middleware/recover
+- package: github.com/wufe/boilerplateprj
+  subpackages:
+  - enums
+  - infrastructure
+  - models
+  - presentation
+  - services
