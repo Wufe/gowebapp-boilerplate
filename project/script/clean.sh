@@ -8,6 +8,7 @@ files=(
 	'infrastructure/database.go'
 	'presentation/home-handler.go'
 	'services/home-service.go'
+	'project/script/deploy.sh'
 )
 
 for file in $files; do
